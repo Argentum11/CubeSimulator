@@ -10,7 +10,7 @@ public class MainFrame extends JFrame{
         Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
         double userScreenWidth = size.getWidth();
         double userScreenHeight = size.getHeight();
-        size.setSize(userScreenWidth/2, userScreenHeight/2);
+        size.setSize(userScreenWidth/5, userScreenHeight/5);
         this.setSize(size);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
